@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body {
+	height: 100vh;
+	color: #c8c8c8;	
+	font-family: 'Oswald', Helvetica, sans-serif;
+	font-size:1.5rem;	
+}
+
+.bg-dark-nav {
+	background-color: #2e2e2e;
+	border-bottom: 2px solid darkviolet;
+}
+
+#conteudo {
+	height: 100%;
+	background-color: #404040;
+	overflow: auto;
+}
+
+#conteudo::-webkit-scrollbar,
+body::-webkit-scrollbar{
+             width: 0;
+         }
+
+
+.img-thumbnail{
+	height: 200px;
+	width: 200px;
+	border-color: darkviolet;
+}
+
+.info{
+	position:relative;
+	top:20%;
+	font-size: 2rem;
+}
+
+.avatar{
+	position: relative;
+	top:50px;
+}
+
+.avatar h3{
+	width:200px;
+	text-align: center;
+}
+			
